@@ -1,0 +1,11 @@
+{
+  "name": "forecast-sg",
+  "private": true,
+  "workspaces": ["apps/*", "packages/*"],
+  "scripts": {
+    "dev:web": "pnpm --filter web dev",
+    "dev:mobile": "pnpm --filter mobile start",
+    "lint": "echo \"add linter later\"",
+    "typecheck": "echo \"add ts build later\""
+  }
+}
